@@ -9,16 +9,14 @@ public class heapSorter {
 
     /*Heap sort an int[]. DOES NOT MODIFY INPUT ARRAY!*/
     public  int[] sort(int[] a){
+        //in-place sort
         int[] result = new int[a.length];
-        PriorityQueue<Integer> heap = new PriorityQueue<Integer>();
+        PriorityQueue<Integer> minHeap = new PriorityQueue();
         for(Integer i : a){
-            heap.offer(i);
+            minHeap.add(i);
         }
-        int cnt = 0;
-        while(!heap.isEmpty()){
-            result[cnt] = heap.peek();
-            heap.remove(result[cnt]);
-            cnt ++;
+        for(int i = 0; i < a.length; ++ i){
+            result[i] = minHeap.poll();
         }
         return result;
     }

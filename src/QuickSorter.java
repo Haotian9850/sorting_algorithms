@@ -1,7 +1,7 @@
 /*Quick sort an int[]
 *   A divide and conquer approach: */
-public class quickSorter {
-    public quickSorter(){
+public class QuickSorter {
+    public QuickSorter(){
         //empty constructor
     }
 

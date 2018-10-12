@@ -1,8 +1,8 @@
 /*
 * Insertion sort of an int[]
 *   search for the correct place for the next array element in already sorted portion of input array*/
-public class insertionSorter {
-    public insertionSorter(){
+public class InsertionSorter {
+    public InsertionSorter(){
         //empty constructor
     }
 

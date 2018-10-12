@@ -2,8 +2,8 @@
 * Selection sort implementation of an int[]
 *   search for the next smallest element in unsorted portion of input array, then swap
 * */
-public class selectionSorter {
-    public selectionSorter(){
+public class SelectionSorter {
+    public SelectionSorter(){
         //empty constructor
     }
 

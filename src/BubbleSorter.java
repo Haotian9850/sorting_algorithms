@@ -1,7 +1,7 @@
 /*Bubble sort an int[]
 * compare each adjacent pairs and swap if necessary until no swap is needed*/
-public class bubbleSorter {
-    public bubbleSorter(){
+public class BubbleSorter {
+    public BubbleSorter(){
         //empty constructor
     }
 

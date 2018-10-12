@@ -3,8 +3,8 @@
 *   A divide and conquer strategy...
 * */
 
-public class mergeSorter {
-    public mergeSorter(){
+public class MergeSorter {
+    public MergeSorter(){
         //empty constructor
     }
 

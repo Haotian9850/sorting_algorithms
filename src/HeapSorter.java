@@ -2,8 +2,8 @@ import java.util.PriorityQueue;
 
 /*Heap sort an int[]
 * Utilizes Java built-in PriorityQueue as underlying data structure*/
-public class heapSorter {
-    public heapSorter(){
+public class HeapSorter {
+    public HeapSorter(){
         //empty constructor
     }
 

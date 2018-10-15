@@ -31,6 +31,14 @@ public class main {
         int[] testArray5 = new int[]{224, 2, 23, 56, 4564, 23, 55, 59, 888, 1204, 29, 8, 77, 65, 43};
         HeapSorter h = new HeapSorter();
         h.sortAndVisualize(testArray5);
+
+        System.out.println("-------------------radix sort testing -------------------");
+        int[] testArray6 = new int[]{224, 2, 23, 56, 4564, 23, 55, 59, 888, 1204, 29, 8, 77, 65, 43};
+        RadixSorter r = new RadixSorter();
+        r.sort(testArray6);
+        for(Integer number : testArray6){
+            System.out.print(number);
+        }
     }
 
 }
